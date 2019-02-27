@@ -10,16 +10,16 @@
 
     <form v-on:submit.prevent="submit()">
       <div>
-        Name: <input type="text" v-model="product.name">
+        Name: <input type="text" class="form-control" v-model="product.name">
       </div>
       <div>
-        Description: <input type="text" v-model="product.description">
+        Description: <input type="text" class="form-control" v-model="product.description">
       </div>
       <div>
-        Price: <input type="text" v-model="product.price">
+        Price: <input type="text" class="form-control" v-model="product.price">
       </div>
       <div>
-        Image Url: <input type="text" v-model="product.image_url">
+        Image Url: <input type="text" class="form-control" v-model="product.image_url">
       </div>
 
       <div>

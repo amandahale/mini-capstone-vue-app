@@ -1,8 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Home from './views/Home.vue'
-import About from './views/About.vue'
-import Test from './views/Test.vue'
+import ProductsIndex from './views/ProductsIndex.vue'
 import ProductsNew from './views/ProductsNew.vue'
 import ProductsShow from './views/ProductsShow.vue'
 import ProductsEdit from './views/ProductsEdit.vue'
@@ -15,18 +13,8 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'home',
-      component: Home
-    },
-    {
-      path: '/about',
-      name: 'about',
-      component: About
-    },
-    {
-      path: '/test',
-      name:'test',
-      component: Test
+      name: 'products-index',
+      component: ProductsIndex
     },
     {
       path: '/products/new',
